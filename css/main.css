@@ -1,0 +1,126 @@
+.row {
+    font-size: 0;
+    display: block;
+}
+
+.col-6 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*===============*/
+
+html {
+    font-family: Monaco;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2 {
+    letter-spacing: .1em;
+    font-weight: bolder;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+button, .btn {
+    padding: .6em 1.2em;
+    border: 0;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+button.primary,
+.btn.primary {
+    padding: .8em 3em;
+    background: #ff668e;
+    color: #fff;
+}
+
+button:hover, .btn:hover {
+    opacity: .9;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section.leader {
+    background: #fef2f4;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section .text {
+    margin-top: 5rem;
+}
+
+.section .btn-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    color: #ff668e;
+    font-family: Monaco;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.nav a:hover {
+    color: #ff4c7b;
+}
+
+.section.leader .avatar,
+.section.leader .signature {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section.leader .avatar {
+    max-width: 200px;
+}
+
+.section.leader .signature {
+    max-width: 300px;
+    position: relative;
+    top: -20px;
+}
+
+.experience {
+    background-image: url(../img/section-3-bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center
+}
+
+.experience .text {
+    margin-bottom: 100px;
+}
+
